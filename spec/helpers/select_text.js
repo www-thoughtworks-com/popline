@@ -1,4 +1,4 @@
-jQuery.fn.selectText = function(){
+jQuery.fn.selectText = function() {
     var element = $(this)[0];
     var selection = window.getSelection();
     var range = document.createRange();
@@ -7,3 +7,4 @@ jQuery.fn.selectText = function(){
     selection.addRange(range);
     return this;
 };
+
